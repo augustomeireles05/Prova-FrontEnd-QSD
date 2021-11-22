@@ -1,0 +1,415 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* -- Início Login -- */
+
+.pagina-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 30px 30px 30px;
+}
+
+.container-login p {
+    margin: 0;
+    color: black;
+    font-size: 0.8em;
+    font-weight: 400;
+
+}
+
+..container-login h1 {
+    font-weight: bold;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ou-use-conta p {
+    padding: 10px 0px 10px 0px;
+
+}
+
+.link-rs {
+    margin: 3px 10px 10px 10px;
+}
+
+.ipt-email input {
+    height: 25px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 5%;
+}
+
+.ipt-senha input {
+    height: 25px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 3px;
+    border: none;
+    padding-left: 5px;
+}
+
+.ask-esqueceu-senha {
+    padding: 10px 0px 10px 0px;
+}
+
+.ask-esqueceu-senha a {
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+}
+
+.btn-entrar {
+    background-color: rgb(255, 0, 85);
+    border-radius: 10px;
+}
+
+
+.btn-entrar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    
+}
+
+.responsive-cadastro {
+    display: none;
+}
+
+
+
+/* -- Fim Login -- */
+
+
+/* -- Início Cadastro -- */
+
+.pagina-cadastro {
+    background-color: rgb(255, 0, 85);
+    display: flex;
+    align-items: center;
+}
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 30px 30px 30px;
+
+}
+
+.msg-ola h1 {
+    color: #fff;
+}
+
+.nao-cadastro p {
+    color: #fff;
+}
+
+.btn-cadastrar {
+    background-color: rgb(253, 49, 117);
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ccc
+}
+
+.btn-cadastrar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+}
+
+
+
+/* -- Fim Cadastro -- */
+
+
+/* -- Início - Página Cadastro -- */
+
+
+    /* -- início container à esquerda -- */
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-principal-2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    .container-japossui-cadastro {
+        background-color: rgb(255, 0, 85);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .ja-possui-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 30px 30px 30px 30px;
+
+        background-color: rgb(255, 0, 85);
+
+        margin-top: 40%
+    }
+
+    .criar-conta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rua-numero {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .title-cadastro-2 {
+        color: #fff;
+    }
+
+    .msg-fazer-login {
+        color: #fff; 
+    }
+
+    .btn-fazer-login {
+        background-color: rgb(253, 49, 117);
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px solid #ccc
+    }
+
+    .btn-fazer-login a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 15px 5px 15px;
+    }
+
+    /* -- Fim container à esquerda -- */
+
+    /* -- Início container à direita -- */
+
+    .criar-conta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .msg-criar-conta p {
+        margin: 0;
+    }
+
+    .input-2 input {
+        width:300px;
+        height: 25px;
+        background-color: rgb(189, 189, 189);
+        border-radius: 3px;
+        border: none;
+        padding-left: 5px;
+        margin-bottom: 5%;
+    }
+
+    .rua-numero {
+        display: flex;
+    }
+
+    .rua-numero input {
+        
+        height: 25px;
+        background-color: rgb(189, 189, 189);
+        border-radius: 3px;
+        border: none;
+        padding-left: 5px;
+        margin-bottom: 5%;
+    }
+
+    .rua input {
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    .numero input {
+        width: 40%;
+    }
+
+    .rua {
+        flex: 5;
+    }
+
+    .numero {
+        flex: 1;
+    }
+
+    .btn-cadastrar-2 {
+        background-color: rgb(255, 0, 85);
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn-cadastrar-2 a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 15px 5px 15px;
+    }
+
+
+
+
+
+    /* -- Fim container à direita -- */
+
+/* -- Fim - Página Cadastro -- */
+
+
+
+
+
+/* -- Iício JS -- */
+
+.dado-ok {
+    color: green;
+    display: none;
+}
+
+.dado-nok {
+    color: red;
+    display: none;
+}
+
+/* -- Fim - JS -- */
+
+
+.ipt-email p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.dado-ok p {
+    color: green;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+
+
+
+/* -- Responsive login -- */
+
+@media (max-width: 460px) {
+
+    .container {
+        margin-top: 30%;
+    }
+
+    .container-principal {
+        width: 100%;
+    }
+
+    .ipt-email input {
+        height: 50px;
+        background-color: rgb(189, 189, 189);
+        border-radius: 3px;
+        border: none;
+        
+        margin-bottom: 5%;
+    }
+
+    .container-login input {
+        padding :0%;
+        width: 300px;
+    }
+
+    .ipt-senha input {
+        padding :0%;
+        width: 300px;
+        height: 50px;
+        background-color: rgb(189, 189, 189);
+        border-radius: 3px;
+        border: none;
+    }
+
+    .container-login {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .pagina-login {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .title-main {
+        display: none;
+    }
+
+    .pagina-cadastro {
+        display: none
+    }
+
+    .container-cadastro {
+        display: none;
+    }
+
+    .responsive-cadastro {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .responsive-cadastro p {
+        padding: 10px 0px 10px 0px;
+    }
+
+    /* -- Início Responsive Cadastro -- */
+
+    .container-japossui-cadastro {
+        display: none;
+    }
+
+    .title-cadastro {
+        display: none;
+    }
+
+    .container-principal-2 {
+        margin-top: 30% ;
+    }
+
+}
